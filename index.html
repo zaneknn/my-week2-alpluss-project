@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming course generator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
 
@@ -15,13 +16,12 @@
             <h1>Al programming course generator!</h1>
         </header>
         <main>
-            <form>
+            <form id="course-generator-form">
                 <input type="text" placeholder="Enter course name" autofocus required autocomplete="off"
                     class="instruction" />
                 <input type="submit" id="" class="button" />
             </form>
-            <div class="courses">
-                The list of courses will be listed here:
+            <div class="courses" id="course">
                 </br>
             </div>
 
