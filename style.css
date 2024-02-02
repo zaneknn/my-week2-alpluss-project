@@ -1,0 +1,68 @@
+body {
+  background-color: #5c67c93e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #050c4dbe;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.165);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
+  border-radius: 17px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instruction {
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.165);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 16px;
+  line-height: 20px;
+  color: #050c4dbe;
+}
+.button {
+  margin-left: 10px;
+  background-color: #4d4f7d;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
+  color: white;
+  border: none;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 14px 24px;
+}
+.courses {
+  font-size: 16px;
+  background-color: #dcdef2;
+  padding: 20px;
+  line-height: 2;
+  list-style: circle;
+  border-left: 3px solid #050c4dbe;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+a {
+  color: #050c4dbe;
+}
