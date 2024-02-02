@@ -19,8 +19,8 @@ function generateCourses(event) {
     "Tell me the most popular online programming courses including links.Maximum 11 listed courses. Sign the list with `This is just a beginning.And it's only going to get better from here.` in <strong> element. ";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   let courseElement = document.querySelector("#course");
-  courseElement.innerHTML = "Generating courses for you.. please wait";
-
+  courseElement.innerHTML = "Generating courses for you.. please wait 👩🏼‍💻";
+  courseElement.style.display = `block`;
   console.log("called the AI api");
   axios.get(apiUrl).then(displayAnswer);
 }
